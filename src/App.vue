@@ -1,6 +1,6 @@
 <template>
   <Navbar :logo="src_logo" :alt="app_name"/>
-  <router-view class="main-container"/>
+<div class="main-container"><router-view /></div>
   <Footer/>
 </template>
 <script>
@@ -32,7 +32,6 @@ data(){
 .main-container{
 margin: 50px;
 min-height: 250px;
-
 }
 
 h1{

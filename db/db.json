@@ -1,82 +1,218 @@
 {
-    "ingredientes": {
-      "paes": [
-        {
-          "id": 1,
-          "tipo": "Italiano Branco"
-        },
-        {
-          "id": 2,
-          "tipo": "3 Queijos"
-        },
-        {
-          "id": 3,
-          "tipo": "Parmesão e Orégano"
-        },
-        {
-          "id": 4,
-          "tipo": "Integral"
-        }
-      ],
-      "carnes": [
-        {
-          "id": 1,
-          "tipo": "Maminha"
-        },
-        {
-          "id": 2,
-          "tipo": "Alcatra"
-        },
-        {
-          "id": 3,
-          "tipo": "Picanha"
-        },
-        {
-          "id": 4,
-          "tipo": "Veggie burger"
-        }
-      ],
-      "opcionais": [
-        {
-          "id": 1,
-          "tipo": "Bacon"
-        },
-        {
-          "id": 2,
-          "tipo": "Cheddar"
-        },
-        {
-          "id": 3,
-          "tipo": "Salame"
-        },
-        {
-          "id": 4,
-          "tipo": "Tomate"
-        },
-        {
-          "id": 4,
-          "tipo": "Cebola roxa"
-        },
-        {
-          "id": 4,
-          "tipo": "Pepino"
-        }
-      ]
-    },
-    "status": [
+  "ingredientes": {
+    "paes": [
       {
         "id": 1,
-        "tipo": "Solicitado"
+        "tipo": "Italiano Branco"
       },
       {
         "id": 2,
-        "tipo": "Em produção"
+        "tipo": "3 Queijos"
       },
       {
         "id": 3,
-        "tipo": "Finalizado"
+        "tipo": "Parmesão e Orégano"
+      },
+      {
+        "id": 4,
+        "tipo": "Integral"
       }
     ],
-    "burgers": [
+    "carnes": [
+      {
+        "id": 1,
+        "tipo": "Maminha"
+      },
+      {
+        "id": 2,
+        "tipo": "Alcatra"
+      },
+      {
+        "id": 3,
+        "tipo": "Picanha"
+      },
+      {
+        "id": 4,
+        "tipo": "Veggie burger"
+      }
+    ],
+    "opcionais": [
+      {
+        "id": 1,
+        "tipo": "Bacon"
+      },
+      {
+        "id": 2,
+        "tipo": "Cheddar"
+      },
+      {
+        "id": 3,
+        "tipo": "Salame"
+      },
+      {
+        "id": 4,
+        "tipo": "Tomate"
+      },
+      {
+        "id": 4,
+        "tipo": "Cebola roxa"
+      },
+      {
+        "id": 4,
+        "tipo": "Pepino"
+      }
     ]
-  }
+  },
+  "status": [
+    {
+      "id": 1,
+      "tipo": "Solicitado"
+    },
+    {
+      "id": 2,
+      "tipo": "Em produção"
+    },
+    {
+      "id": 3,
+      "tipo": "Finalizado"
+    }
+  ],
+  "burgers": [
+    {
+      "nome": "fdsf",
+      "pao": "Parmesão e Orégano",
+      "carne": "Maminha",
+      "opcional": [
+        "Bacon"
+      ],
+      "status": "Em produção",
+      "id": 6
+    },
+    {
+      "nome": "hff",
+      "pao": "3 Queijos",
+      "carne": "Alcatra",
+      "opcional": [],
+      "status": "Finalizado",
+      "id": 7
+    },
+    {
+      "nome": "rafa",
+      "pao": "3 Queijos",
+      "carne": "Alcatra",
+      "opcional": [
+        "Bacon"
+      ],
+      "status": "Solicitado",
+      "id": 8
+    },
+    {
+      "nome": "eae",
+      "pao": "Parmesão e Orégano",
+      "carne": "Alcatra",
+      "opcional": [
+        "Bacon"
+      ],
+      "status": "Solicitado",
+      "id": 9
+    },
+    {
+      "nome": "rafa",
+      "pao": "3 Queijos",
+      "carne": "Alcatra",
+      "opcional": [
+        "Bacon"
+      ],
+      "status": "Solicitado",
+      "id": 10
+    },
+    {
+      "nome": "ad",
+      "pao": "Parmesão e Orégano",
+      "carne": "Alcatra",
+      "opcional": [
+        "Bacon",
+        "Salame"
+      ],
+      "status": "Solicitado",
+      "id": 11
+    },
+    {
+      "nome": "ad",
+      "pao": "3 Queijos",
+      "carne": "Maminha",
+      "opcional": [
+        "Tomate",
+        "Salame",
+        "Bacon"
+      ],
+      "status": "Solicitado",
+      "id": 14
+    },
+    {
+      "nome": "ad",
+      "pao": "Parmesão e Orégano",
+      "carne": "Alcatra",
+      "opcional": [
+        "Bacon",
+        "Salame"
+      ],
+      "status": "Solicitado",
+      "id": 15
+    },
+    {
+      "nome": "ffyfh",
+      "pao": "3 Queijos",
+      "carne": "Maminha",
+      "opcional": [
+        "Bacon",
+        "Salame"
+      ],
+      "status": "Solicitado",
+      "id": 16
+    },
+    {
+      "nome": "eae",
+      "pao": "Parmesão e Orégano",
+      "carne": "Maminha",
+      "opcional": [
+        "Bacon",
+        "Salame",
+        "Tomate",
+        "Pepino"
+      ],
+      "status": "Solicitado",
+      "id": 17
+    },
+    {
+      "nome": "dada",
+      "pao": "Parmesão e Orégano",
+      "carne": "Alcatra",
+      "opcional": [
+        "Bacon",
+        "Salame"
+      ],
+      "status": "Solicitado",
+      "id": 18
+    },
+    {
+      "nome": "ewae",
+      "pao": "3 Queijos",
+      "carne": "Veggie burger",
+      "opcional": [],
+      "status": "Solicitado",
+      "id": 19
+    },
+    {
+      "nome": "ewae",
+      "pao": "3 Queijos",
+      "carne": "Maminha",
+      "opcional": [
+        "Cheddar",
+        "Tomate"
+      ],
+      "status": "Solicitado",
+      "id": 20
+    }
+  ]
+}
